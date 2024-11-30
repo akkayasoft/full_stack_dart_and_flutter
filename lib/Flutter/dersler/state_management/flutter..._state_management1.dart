@@ -36,7 +36,7 @@ class _DemoPageState extends State<DemoPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextButton(
-              child: Text("+1"),
+              child: const Text("+1"),
               onPressed: _increment,
             ),
             const SizedBox(
