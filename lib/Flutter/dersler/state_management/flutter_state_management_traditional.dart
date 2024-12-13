@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DemoPage extends StatefulWidget {
-  const DemoPage();
+  const DemoPage({super.key});
 
   @override
   _DemoPageState createState() => _DemoPageState();
@@ -36,8 +36,8 @@ class _DemoPageState extends State<DemoPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextButton(
-              child: const Text("+1"),
               onPressed: _increment,
+              child: const Text("+1"),
             ),
             const SizedBox(
               width: 20,
@@ -46,7 +46,7 @@ class _DemoPageState extends State<DemoPage> {
             const SizedBox(
               width: 20,
             ),
-            TextButton(onPressed: _decrement, child: Text("-1")),
+            TextButton(onPressed: _decrement, child: const Text("-1")),
             const SizedBox(
               width: 20,
             ),

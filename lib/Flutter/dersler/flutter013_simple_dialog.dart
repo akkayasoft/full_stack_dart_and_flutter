@@ -10,7 +10,7 @@ class SimpleDialogWidget extends StatelessWidget {
         title: const Text('Simple Dialog'),
       ),
       body: Center(child: ElevatedButton(
-        child: Text("Simple Dialog"),
+        child: const Text("Simple Dialog"),
         onPressed: () {
           
         },

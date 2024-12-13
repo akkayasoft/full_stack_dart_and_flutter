@@ -32,7 +32,7 @@ class AlertDialogs extends StatelessWidget {
                   );
                 });
           },
-          child: Text('Alert Dialog'),
+          child: const Text('Alert Dialog'),
         ),
       ),
     );
